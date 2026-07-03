@@ -1,0 +1,26 @@
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/dutray-yorkies
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "puppies"
+    label: "Puppy Listings"
+    files:
+      - file: "data/puppies.json"
+        label: "Puppies"
+        name: "puppies"
+        fields:
+          - label: "Puppies"
+            name: "body"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Gender", name: "gender", widget: "select", options: ["Male", "Female"] }
+              - { label: "Birthdate", name: "birthdate", widget: "string", required: false }
+              - { label: "Status", name: "status", widget: "select", options: ["Available", "Reserved", "Sold"] }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Photo", name: "photo", widget: "image", required: false }
