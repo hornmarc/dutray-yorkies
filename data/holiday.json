@@ -1,0 +1,10 @@
+{
+  "active": true,
+  "emoji": "🎆",
+  "message": "Happy 4th of July from Dutray Yorkies! Wishing you and your fur babies a safe and festive holiday!",
+  "particles": ["🎆", "🎇", "✨", "⭐", "🇺🇸"],
+  "colors": {
+    "background": "linear-gradient(90deg, #002868 0%, #bf0a30 50%, #002868 100%)",
+    "text": "#ffffff"
+  }
+}

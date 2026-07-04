@@ -5,7 +5,9 @@
     "birthdate": "Coming soon",
     "status": "Available",
     "description": "Replace this example with the puppy description, personality notes, color, expected size, and any availability details.",
-    "photo": "/images/uploads/placeholder-puppy.jpg"
+    "photo": "/images/uploads/placeholder-puppy.jpg",
+    "video": "",
+    "videoFile": ""
   },
   {
     "name": "Past Litter Example",
@@ -13,6 +15,8 @@
     "birthdate": "Past litter",
     "status": "Sold",
     "description": "Use sold listings for past puppies or happy family updates.",
-    "photo": "/images/uploads/placeholder-puppy.jpg"
+    "photo": "/images/uploads/placeholder-puppy.jpg",
+    "video": "https://www.youtube.com/watch?v=EXAMPLE",
+    "videoFile": ""
   }
 ]

@@ -24,3 +24,52 @@ collections:
               - { label: "Status", name: "status", widget: "select", options: ["Available", "Reserved", "Sold"] }
               - { label: "Description", name: "description", widget: "text" }
               - { label: "Photo", name: "photo", widget: "image", required: false }
+              - { label: "Video URL (YouTube or Facebook)", name: "video", widget: "string", required: false, hint: "Paste a YouTube or Facebook video link" }
+              - { label: "Video File (self-hosted mp4)", name: "videoFile", widget: "file", required: false, hint: "Upload a short .mp4 clip" }
+
+  - name: "testimonials"
+    label: "Testimonials"
+    files:
+      - file: "data/testimonials.json"
+        label: "Testimonials"
+        name: "testimonials"
+        fields:
+          - label: "Testimonials"
+            name: "body"
+            widget: "list"
+            fields:
+              - { label: "Family Name", name: "name", widget: "string" }
+              - { label: "Testimonial Text", name: "text", widget: "text" }
+              - { label: "Photo", name: "photo", widget: "image", required: false }
+
+  - name: "dams-sires"
+    label: "Dams + Sires"
+    files:
+      - file: "data/dams-sires.json"
+        label: "Dams and Sires"
+        name: "dams-sires"
+        fields:
+          - label: "Dams"
+            name: "dams"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Registration", name: "registration", widget: "string" }
+              - { label: "Color", name: "color", widget: "string" }
+              - { label: "Weight", name: "weight", widget: "string" }
+              - { label: "Description", name: "description", widget: "text", required: false }
+              - { label: "Photo", name: "photo", widget: "image" }
+          - label: "Sires"
+            name: "sires"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Registration", name: "registration", widget: "string" }
+              - { label: "Color", name: "color", widget: "string" }
+              - { label: "Weight", name: "weight", widget: "string" }
+              - { label: "Description", name: "description", widget: "text", required: false }
+              - { label: "Photo", name: "photo", widget: "image" }
+          - label: "Sire Service Note"
+            name: "sire_service_note"
+            widget: "string"
+            required: false

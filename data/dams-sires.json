@@ -1,0 +1,63 @@
+{
+  "dams": [
+    {
+      "name": "Paige",
+      "registration": "AKC registered",
+      "color": "Black carries Chocolate",
+      "weight": "5 lbs",
+      "description": "Future momma 2020",
+      "photo": "/images/uploads/dams/dam-1.jpg"
+    },
+    {
+      "name": "Ginger",
+      "registration": "AKC registered",
+      "color": "Sable Chocolate Parti",
+      "weight": "5 lbs",
+      "description": "Gorgeous, she has the most beautiful babies (Birdie being one)",
+      "photo": "/images/uploads/dams/dam-2.jpg"
+    },
+    {
+      "name": "Brooklyn",
+      "registration": "AKC registered",
+      "color": "Dark Traditional",
+      "weight": "7 lbs",
+      "description": "Full of personality",
+      "photo": "/images/uploads/dams/dam-3.jpg"
+    },
+    {
+      "name": "Tootsie",
+      "registration": "AKC registered",
+      "color": "Tri Color",
+      "weight": "6 lbs",
+      "description": "",
+      "photo": "/images/uploads/dams/dam-4.jpg"
+    },
+    {
+      "name": "Birdie",
+      "registration": "AKC registered",
+      "color": "Chocolate Traditional",
+      "weight": "6 lbs",
+      "description": "",
+      "photo": "/images/uploads/dams/dam-5.jpg"
+    }
+  ],
+  "sires": [
+    {
+      "name": "Gizmo",
+      "registration": "AKC registered",
+      "color": "Tri-Color Parti",
+      "weight": "3.5 lbs",
+      "description": "Handsome, gentle, happy, playful and loves to cuddle. Gizmo is a perfect proven stud for your perfect female.",
+      "photo": "/images/uploads/sires/gizmo-1.jpg"
+    },
+    {
+      "name": "Levi",
+      "registration": "AKC registered",
+      "color": "Traditional, carries chocolate & parti",
+      "weight": "3.6 lbs",
+      "description": "Loving, such a snuggler. Happy and loves to play all day.",
+      "photo": "/images/uploads/sires/levi.jpg"
+    }
+  ],
+  "sire_service_note": "Please send me an email at tracy@dutrayyorkies.com if you are interested in Sire service."
+}
